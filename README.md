@@ -28,6 +28,10 @@ or
 https://gitpod.io#https://github.com/gyng/rust-primer
 ```
 
+or
+
+GitHub Codespace: Click the green `Code` button at the top right > `Codespace` > Create
+
 ---
 
 ## Rust
