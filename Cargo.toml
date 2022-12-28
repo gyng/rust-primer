@@ -16,6 +16,8 @@ members = [
   "05-match-result/solution",
   "05-match-result/exercise",
   "06-strings/demo",
+  "06-strings/solution",
+  "06-strings/exercise",
   "07-external-libraries/exercise",
   "07-external-libraries/solution"
 ]

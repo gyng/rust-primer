@@ -1,5 +1,3 @@
-use std::process;
-
 fn main() {
     struct Point {
         x: f64,

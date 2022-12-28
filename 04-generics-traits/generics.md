@@ -12,7 +12,7 @@ Creating safe, reusable code
 
 ---
 
-## Exercies
+## Exercise
 
 - Generics on structs and functions
 - Using traits as interfaces

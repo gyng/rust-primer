@@ -6,9 +6,9 @@ marp: true
 
 ## A taste of Rust
 
-2021
+2021&mdash;2023
 
-$\approx$ 3–4 hours
+Nothing to something in $\approx$ 1 or 2 days
 
 ---
 
@@ -36,7 +36,7 @@ GitHub Codespace: Click the green `Code` button at the top right > `Codespace` >
 
 ## Rust
 
->Rust has been voted the "most loved programming language" in the Stack Overflow Developer Survey every year since 2016.
+> Rust has been voted the "most loved programming language" in the Stack Overflow Developer Survey every year since 2016.
 
 <!-- We're here to get a high-level answer to the questions: what and why Rust? -->
 
@@ -45,7 +45,7 @@ GitHub Codespace: Click the green `Code` button at the top right > `Codespace` >
 ## Me
 
 - First line of Rust code in 2014
-- Intermediate ___(!)___ Rust programmer
+- Intermediate **_(!)_** Rust programmer
 
 <!-- I learn more about programming the more I write Rust -->
 
@@ -69,7 +69,7 @@ Count, parse, clean terrabytes of CSV
 
 ---
 
-## Kubernetes job monitor
+## Kubernetes job monitor sidecar
 
 Export logs, metrics, and artifacts
 
@@ -82,7 +82,7 @@ Export logs, metrics, and artifacts
 - Internet access
 - Know how to program in some programming language
 - Able to `git clone`
-- A machine where you can install rust
+- An environment where you can install Rust
 - Visual Studio Code preferred but not required
 
 ---
@@ -94,6 +94,7 @@ Answer the question: Why should I try Rust?
 - Rust setup
 - A taste of Rust programming
 - Write a simple, semi-realistic program at the end
+- Use the tools you would use for real (= no web toy examples!)
 
 ---
 
@@ -106,10 +107,9 @@ Answer the question: Why should I try Rust?
 
 ---
 
-# It's okay to not come out of this with a complete understanding of what happened!
+# It's okay to come out of this without a complete understanding of what happened!
 
 It's about getting a first impression
-
 
 ---
 
@@ -131,7 +131,7 @@ It's about getting a first impression
 - `Option`, `Result`, enums, and pattern matching
 - Strings
 - External libraries
-- ~~A taste of async~~
+- A taste of async
 - Towards production
 
 ---
