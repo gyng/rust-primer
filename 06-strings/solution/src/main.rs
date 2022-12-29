@@ -18,8 +18,6 @@ fn main() {
 
 #[cfg(test)]
 mod tests {
-    use super::*;
-
     #[test]
     fn create_a_string_struct() {
         let mut flavour = "strawberry";

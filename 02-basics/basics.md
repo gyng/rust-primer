@@ -1,15 +1,21 @@
 # What is Rust?
 
+Rust is an abstraction layer over memory.
+
 - Compiled
+
   - no language runtime needed, no GC
 
 - Staticlly-typed
+
   - all types known at compile time
 
 - Systems language
+
   - C/C++ compatiability
 
 - Functional features
+
   - pattern matching
   - abstract data types
   - traits/typeclasses
@@ -33,7 +39,7 @@
 
 For the exercise, run the tests with `cargo test`.
 
-  - `cd exercise`
-  - `cargo test`
+- `cd exercise`
+- `cargo test`
 
 Make the tests pass!

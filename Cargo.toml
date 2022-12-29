@@ -19,5 +19,6 @@ members = [
   "06-strings/solution",
   "06-strings/exercise",
   "07-external-libraries/exercise",
-  "07-external-libraries/solution"
+  "07-external-libraries/solution",
+  "08-async/demo"
 ]

@@ -3,8 +3,9 @@
 ~~TODO~~ Left as an exercise to the reader
 
 - Containerise build
-- CI: tests, fmets, building in alpine
-- Bonus: cargo t, clippy, audit
+- CI: tests, fmts, building in alpine
+- cargo fmt, clippy, audit
+- Error handling ecosystem, error reporting and tracking
+- Exception tracking
 - Doc generation, testing your docs
 - Release: targets, bench, fuzzing, quickcheck
-- Bonus: Error handling ecosystem, error reporting and tracking

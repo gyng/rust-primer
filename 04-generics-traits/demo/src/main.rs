@@ -67,6 +67,13 @@ impl<T: ?Sized + Shape> JigsawPuzzle<T> {
 }
 
 fn main() {
+    // Useful stdlib traits AsRef, Into, From
+    // We will cover strings later, but here's a preview
+    // AsRef/From/Into does auto conversions for you.
+    // String implements Into<Vec<u8>>:
+    let _foo_bytes: Vec<u8> = "foo".into();
+
+    // Basic traits
     let circle = Circle { radius: 1.0 };
     let rectangle = Rectangle {
         width: 1.0,

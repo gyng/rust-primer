@@ -18,8 +18,8 @@ https://doc.rust-lang.org/1.9.0/book/lifetimes.html
 
 Fix test and compile failures in `./exercise`.
 
-* `struct`
-* `struct` visibility
-* `impl`
-* Mutable `struct`
-* Borrow checker (implicit lifetimes)
+- `struct`
+- `struct` visibility
+- `impl`
+- Mutable `struct`
+- Borrow checker (implicit lifetimes)

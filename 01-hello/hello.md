@@ -29,6 +29,7 @@ Hello, World!
    - `cargo clippy`
 
 4. Add IDE/editor integration
+
    - Check out rust-analyzer if you're using a supported IDE
      - vscode (recommended): https://rust-analyzer.github.io/manual.html#vs-code
      - emacs/vim/sublime (read instructions): https://rust-analyzer.github.io/manual.html

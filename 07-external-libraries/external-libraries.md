@@ -1,21 +1,25 @@
 # External libraries
 
-- crates.io > npm equivalent
+- Crates are your packages
+- crates.io is the NPM/PyPI equivalent
 - Can add dependencies install from git, local, workspace (monorepo)
-- Private registries: https://doc.rust-lang.org/nightly/cargo/reference/registries.html
+- To add a dependency, add it to `Cargo.toml` using `cargo add serde`
+- Private/mirrored registries: https://doc.rust-lang.org/cargo/reference/registries.html
 - `Cargo.lock` > `package-lock.json`, `Gemfile.lock`
 
-## Common libraries
+## Go-to community libraries
 
-| What               | Which                    |
-| ------------------ | ------------------------ |
-| Format parsing     | **serde**                |
-| CLI parsing        | **clap**                 |
-| Error handling     | anyhow, thiserror        |
-| Network request    | reqwest, hyper           |
-| Web framework      | tower, rocket, actix-web |
-| ORM, query builder | diesel                   |
-| Async runtime      | tokio                    |
+For an up-to-date list: https://blessed.rs/crates
+
+| Problem            | Crate                              |
+| ------------------ | ---------------------------------- |
+| Format parsing     | **serde**                          |
+| CLI parsing        | **clap**                           |
+| Error handling     | anyhow, thiserror                  |
+| Network request    | reqwest, hyper                     |
+| Web framework      | axum, actix-web, surf, warp, tower |
+| ORM, query builder | sea-orm, diesel                    |
+| Async runtime      | tokio                              |
 
 ## Objectives
 

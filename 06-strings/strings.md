@@ -2,6 +2,8 @@
 
 Strings were a confusing point for me when I started learning Rust without any systems-language experience.
 
+Remember that Rust is an abstraction layer over system memory, and that strings are _not_ a bag of bytes!
+
 Generally, there are two types of strings in Rust you'll encounter
 
 `&str` (slice) and `String`
@@ -29,7 +31,11 @@ Or, in simpler terms
 
 <!-- You think you know strings as a programmer, but do you really? -->
 
----
+## Objectives
+
+- Create strings
+- Move strings around
+- Convert strings
 
 ## Exercise
 

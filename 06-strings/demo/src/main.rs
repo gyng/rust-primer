@@ -45,5 +45,8 @@ fn main() {
     // What are other programming languages even doing?
     // What does "a🦃bcd"[1] in JavaScript do?
 
-    // The design of Rust APIs gives you wing^H^H^H^H guardrails!
+    // General naming conventions for conversions
+    // as_bytes(): doesn't change memory layout, cheap and fast
+    // to_bytes(): conversions that can copy and allocate memory, makes a new copy
+    // into_bytes(): cheap and fast but could change memory layout in-place without allocations
 }
